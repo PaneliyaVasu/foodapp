@@ -4,7 +4,8 @@ import Itemlist from "./Itemlist";
 
 export default function Fooddetails({ foodId }) {
   const URL = `https://api.spoonacular.com/recipes/${foodId}/information`;
-  const API_KEY = "37726b9418b94214a5924fa1613f8b48";
+  // const API_KEY = "37726b9418b94214a5924fa1613f8b48";
+   const API_KEY = "f45471972c9241fd9b6ba0e8f5e2aa4d";
   const [food, setFood] = useState([]);
   const [Loading, setLoading] = useState(true);
   useEffect(() => {
