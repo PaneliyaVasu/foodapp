@@ -1,0 +1,46 @@
+.container {
+  width: 302px;
+  border-radius: 8px;
+  box-shadow: 1px 4px 6px rgb(1, 1, 1, 0.1);
+  border: 0.001px solid transparent;
+  margin: 20px;
+  font-family: polysans, sans-serif;
+  border: 1px solid #abaab0;
+}
+
+.image {
+  width: 100%;
+  border-bottom: 1px solid #abaab0;
+  height: auto;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.itemContent {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.itemName {
+  font-size: 1em;
+  font-weight: 600;
+  color: #393e46;
+  margin: 20px;
+}
+
+.btn {
+  background-color: #29bb89;
+  border: none;
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.btnc {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
