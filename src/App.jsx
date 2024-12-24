@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Foodlist from "./component/Foodlist";
-import Nav from "./component/nav";
-import Container from "./component/container";
+import Nav from "./component/Nav";
+import Container from "./component/Container";
 import InnerContainer from "./component/InnerContainer";
 import Fooddetails from "./component/Fooddetail";
 import Search from "./component/Search";
