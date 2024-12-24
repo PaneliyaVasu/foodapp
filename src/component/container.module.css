@@ -1,3 +1,4 @@
 .parent {
   display: flex;
+  flex-wrap: wrap; /* Allows wrapping for smaller screens */
 }
